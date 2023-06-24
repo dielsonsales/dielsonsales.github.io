@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>Por Fazer</title>
+    
+    
+    <description>Por Fazer</description>
+    
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>
+          
+          You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when...
+        </description>
+        <pubDate>Wed, 21 Jun 2023 17:55:45 -0300</pubDate>
+        <link>/2023-06-21-welcome-to-jekyll/</link>
+        <guid isPermaLink="true">/2023-06-21-welcome-to-jekyll/</guid>
+      </item>
+    
+      <item>
+        <title>Installing an Oracle Database for the first time</title>
+        <description>
+          
+          In this article, I mean to document my journey planning, installing and deploying an Oracle database for the first time. Learning this was a requirement to do some projects in my database classes in college, so it’ll be useful to document things here while it’s still fresh in my mind....
+        </description>
+        <pubDate>Sat, 10 Dec 2022 18:00:00 -0300</pubDate>
+        <link>/2022-12-10-installing-oracle-database-for-the-first-time/</link>
+        <guid isPermaLink="true">/2022-12-10-installing-oracle-database-for-the-first-time/</guid>
+      </item>
+    
+      <item>
+        <title>Sample blog post</title>
+        <description>
+          Each post also has a subtitle - 
+          This is a demo post to show you how to write blog posts with markdown. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc. Here is some bold text Here is a secondary...
+        </description>
+        <pubDate>Fri, 28 Feb 2020 00:00:00 -0300</pubDate>
+        <link>/2020-02-28-test-markdown/</link>
+        <guid isPermaLink="true">/2020-02-28-test-markdown/</guid>
+      </item>
+    
+      <item>
+        <title>Flake it till you make it</title>
+        <description>
+          Excerpt from Soulshaping by Jeff Brown - 
+          Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who...
+        </description>
+        <pubDate>Wed, 26 Feb 2020 00:00:00 -0300</pubDate>
+        <link>/2020-02-26-flake-it-till-you-make-it/</link>
+        <guid isPermaLink="true">/2020-02-26-flake-it-till-you-make-it/</guid>
+      </item>
+    
+  </channel>
+</rss>
