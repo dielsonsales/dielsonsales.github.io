@@ -45,6 +45,17 @@
       </item>
     
       <item>
+        <title>Writing a minimalist Android client, part 1</title>
+        <description>
+          
+          So I was reading recently a nice article called “The small web is beautiful” which got me inspired to take this concept to Android apps. For a long time already, I’ve used Boost to read posts on Reddit and I wanted to build something similar that would make reading comments...
+        </description>
+        <pubDate>Sun, 07 Mar 2021 15:35:00 -0300</pubDate>
+        <link>https://dielsonsales.github.io/2021-03-07-minimalist-android-app/</link>
+        <guid isPermaLink="true">https://dielsonsales.github.io/2021-03-07-minimalist-android-app/</guid>
+      </item>
+    
+      <item>
         <title>Sample blog post</title>
         <description>
           Each post also has a subtitle - 

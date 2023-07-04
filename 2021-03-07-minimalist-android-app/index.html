@@ -9,13 +9,13 @@
 
   
 
-  <title>Tag Index</title>
+  <title>Writing a minimalist Android client, part 1</title>
 
   
   <meta name="author" content="Dielson Sales">
   
 
-  <meta name="description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:&apos;,&apos; | sort -%} {%- for tag...">
+  <meta name="description" content="So I was reading recently a nice article called “The small web is beautiful” which got me inspired to take this concept to Android apps. For a long time already, I’ve used Boost to read posts on Reddit and I wanted to build something similar that would make reading comments...">
 
   
 
@@ -76,17 +76,19 @@
 
   
   <meta property="og:site_name" content="Por Fazer">
-  <meta property="og:title" content="Tag Index">
-  <meta property="og:description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:&apos;,&apos; | sort -%} {%- for tag...">
+  <meta property="og:title" content="Writing a minimalist Android client, part 1">
+  <meta property="og:description" content="So I was reading recently a nice article called “The small web is beautiful” which got me inspired to take this concept to Android apps. For a long time already, I’ve used Boost to read posts on Reddit and I wanted to build something similar that would make reading comments...">
 
   
   <meta property="og:image" content="https://dielsonsales.github.io/assets/img/avatar-icon.jpg">
   
 
   
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://dielsonsales.github.io/tags/">
-  <link rel="canonical" href="https://dielsonsales.github.io/tags/">
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Dielson Sales">
+  <meta property="og:article:published_time" content="2021-03-07T15:35:00-03:00">
+  <meta property="og:url" content="https://dielsonsales.github.io/2021-03-07-minimalist-android-app/">
+  <link rel="canonical" href="https://dielsonsales.github.io/2021-03-07-minimalist-android-app/">
   
 
   
@@ -95,8 +97,8 @@
   <meta name="twitter:site" content="@">
   <meta name="twitter:creator" content="@">
 
-  <meta property="twitter:title" content="Tag Index">
-  <meta property="twitter:description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:&apos;,&apos; | sort -%} {%- for tag...">
+  <meta property="twitter:title" content="Writing a minimalist Android client, part 1">
+  <meta property="twitter:description" content="So I was reading recently a nice article called “The small web is beautiful” which got me inspired to take this concept to Android apps. For a long time already, I’ve used Boost to read posts on Reddit and I wanted to build something similar that would make reading comments...">
 
   
   <meta name="twitter:image" content="https://dielsonsales.github.io/assets/img/avatar-icon.jpg">
@@ -285,10 +287,14 @@
   <div class="container-md">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="page-heading">
-          <h1>Tag Index</h1>
+        <div class="post-heading">
+          <h1>Writing a minimalist Android client, part 1</h1>
           
 
+          
+            <span class="post-meta">Posted on March 7, 2021</span>
+            
+            
           
         </div>
       </div>
@@ -301,117 +307,149 @@
 
 
 
-<div class=" container-md " role="main">
+<div class=" container-md ">
   <div class="row">
     <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
-      
-
-      <a href="#android" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;android&nbsp;(1)</a><a href="#books" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;books&nbsp;(1)</a><a href="#database" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;database&nbsp;(1)</a><a href="#git" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;git&nbsp;(1)</a><a href="#learning" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;learning&nbsp;(1)</a><a href="#minimalism" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;minimalism&nbsp;(1)</a><a href="#oracle" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;oracle&nbsp;(1)</a><a href="#software-development" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;software-development&nbsp;(2)</a><a href="#test" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;test&nbsp;(2)</a><a href="#writing" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;writing&nbsp;(1)</a><div id="full-tags-list"><h2 id="android" class="linked-section">
-        <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;android&nbsp;(1)
-    </h2>
-    <div class="post-list"><div class="tag-entry">
-                <a href="/2021-03-07-minimalist-android-app/">Writing a minimalist Android client, part 1</a>
-                <div class="entry-date">
-                    <time datetime="2021-03-07T15:35:00-03:00">March 7, 2021</time>
-                </div>
-            </div></div><h2 id="books" class="linked-section">
-        <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;books&nbsp;(1)
-    </h2>
-    <div class="post-list"><div class="tag-entry">
-                <a href="/2020-02-26-flake-it-till-you-make-it/">Flake it till you make it</a>
-                <div class="entry-date">
-                    <time datetime="2020-02-26T00:00:00-03:00">February 26, 2020</time>
-                </div>
-            </div></div><h2 id="database" class="linked-section">
-        <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;database&nbsp;(1)
-    </h2>
-    <div class="post-list"><div class="tag-entry">
-                <a href="/2022-12-10-installing-oracle-database-for-the-first-time/">Installing an Oracle Database for the first time</a>
-                <div class="entry-date">
-                    <time datetime="2022-12-10T18:00:00-03:00">December 10, 2022</time>
-                </div>
-            </div></div><h2 id="git" class="linked-section">
-        <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;git&nbsp;(1)
-    </h2>
-    <div class="post-list"><div class="tag-entry">
-                <a href="/2022-12-22-list-git-configs/">My List of Interesting and Important Git Configurations</a>
-                <div class="entry-date">
-                    <time datetime="2022-12-22T23:51:00-03:00">December 22, 2022</time>
-                </div>
-            </div></div><h2 id="learning" class="linked-section">
-        <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;learning&nbsp;(1)
-    </h2>
-    <div class="post-list"><div class="tag-entry">
-                <a href="/2023-05-11-starting-a-new-blog/">Starting a new blog</a>
-                <div class="entry-date">
-                    <time datetime="2023-05-11T00:00:00-03:00">May 11, 2023</time>
-                </div>
-            </div></div><h2 id="minimalism" class="linked-section">
-        <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;minimalism&nbsp;(1)
-    </h2>
-    <div class="post-list"><div class="tag-entry">
-                <a href="/2021-03-07-minimalist-android-app/">Writing a minimalist Android client, part 1</a>
-                <div class="entry-date">
-                    <time datetime="2021-03-07T15:35:00-03:00">March 7, 2021</time>
-                </div>
-            </div></div><h2 id="oracle" class="linked-section">
-        <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;oracle&nbsp;(1)
-    </h2>
-    <div class="post-list"><div class="tag-entry">
-                <a href="/2022-12-10-installing-oracle-database-for-the-first-time/">Installing an Oracle Database for the first time</a>
-                <div class="entry-date">
-                    <time datetime="2022-12-10T18:00:00-03:00">December 10, 2022</time>
-                </div>
-            </div></div><h2 id="software-development" class="linked-section">
-        <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;software-development&nbsp;(2)
-    </h2>
-    <div class="post-list"><div class="tag-entry">
-                <a href="/2022-12-22-list-git-configs/">My List of Interesting and Important Git Configurations</a>
-                <div class="entry-date">
-                    <time datetime="2022-12-22T23:51:00-03:00">December 22, 2022</time>
-                </div>
-            </div><div class="tag-entry">
-                <a href="/2021-03-07-minimalist-android-app/">Writing a minimalist Android client, part 1</a>
-                <div class="entry-date">
-                    <time datetime="2021-03-07T15:35:00-03:00">March 7, 2021</time>
-                </div>
-            </div></div><h2 id="test" class="linked-section">
-        <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;test&nbsp;(2)
-    </h2>
-    <div class="post-list"><div class="tag-entry">
-                <a href="/2020-02-28-test-markdown/">Sample blog post</a>
-                <div class="entry-date">
-                    <time datetime="2020-02-28T00:00:00-03:00">February 28, 2020</time>
-                </div>
-            </div><div class="tag-entry">
-                <a href="/2020-02-26-flake-it-till-you-make-it/">Flake it till you make it</a>
-                <div class="entry-date">
-                    <time datetime="2020-02-26T00:00:00-03:00">February 26, 2020</time>
-                </div>
-            </div></div><h2 id="writing" class="linked-section">
-        <i class="fas fa-tag" aria-hidden="true"></i>
-        &nbsp;writing&nbsp;(1)
-    </h2>
-    <div class="post-list"><div class="tag-entry">
-                <a href="/2023-05-11-starting-a-new-blog/">Starting a new blog</a>
-                <div class="entry-date">
-                    <time datetime="2023-05-11T00:00:00-03:00">May 11, 2023</time>
-                </div>
-            </div></div></div>
-
 
       
 
       
+
+      <article role="main" class="blog-post">
+        <p>So I was reading recently a nice article called “<a href="https://benhoyt.com/writings/the-small-web-is-beautiful/">The small web is beautiful</a>” which got me inspired to take this concept to Android apps. For a long time already, I’ve used <a href="https://play.google.com/store/apps/details?id=com.rubenmayayo.reddit&amp;hl=en&amp;gl=US">Boost</a> to read posts on Reddit and I wanted to build something similar that would make reading comments on Hacker News just as pleasant. So in this series of articles, I’ll show all the process I’ve used to create a simple Android app to browse Hacker News and read the comments. But I’ll be trying to make as small as possible, for as long as it’s reasonable to do so.</p>
+
+<h1 id="bloated-apps-a-little-bit-of-context">Bloated apps: a little bit of context</h1>
+
+<p>Android apps have suffered for a long time from the <a href="https://bandwidthblog.co.za/2020/12/27/android-fragmentation-2020/">fragmentation problem</a>, and to solve that Google has been gradually focusing on moving functionality from the Android APIs to their <a href="https://developer.android.com/topic/libraries/support-library">Support Library</a> (currently rebranded to Android Jetpack). If you don’t know what Android Jetpack is, here’s the description in Google’s <a href="https://developer.android.com/jetpack">official website</a>:</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Jetpack is a suite of libraries to help developers follow best practices, reduce boilerplate code, and write code that works consistently across Android versions and devices so that developers can focus on the code they care about.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>So basically, the Support Libraries contained a lot of features back-ported to older versions of Android and made sure some features behaved the same way across different versions of Android. The new Jetpack libraries do the same, but also contain some extra stuff that aim to standardize the way most apps are built. The problem with this approach is that a lot of code gets embedded in the apps instead of using the already available functions in the Android system itself.</p>
+
+<h1 id="starting-the-project">Starting the project</h1>
+
+<p>When you first create an Android app on Android Studio, it automatically adds some Android Jetpack libraries in your app, but those libraries basically make your app too big for our concept of “tiny app”. I removed everything that’s not really necessary (including the standard icons) to see what it looks like after installed:</p>
+
+<p><img src="/images/android-minimalism-01.png" alt="" class="mx-auto d-block" /></p>
+<p style="color:gray; font-size:80%;" align="center">1.69MB! That’s not tiny for an app that only shows “Hello world” in the screen.</p>
+
+<p>So for a start I wanted to know how small a modern Android app can be <em>without</em> any boilerplate or libraries. This would set our bar for future comparisons. For this purpose we’re going to start without any libraries or unnecessary dependencies, which means we’re going to ditch the whole Google’s libraries (at least for now…).</p>
+
+<p>Running again we have:</p>
+
+<p><img src="/images/android-minimalism-02.png" alt="" class="mx-auto d-block" /></p>
+<p style="color:gray; font-size:80%;" align="center">Less than 33KB, that’s much better!</p>
+
+<p>Although this size is good, we’d need to make a lot of sacrifices to code like this. One of the problems is that, without the Google libraries, we simply can’t use the <code class="language-plaintext highlighter-rouge">@Nullable</code> and <code class="language-plaintext highlighter-rouge">@NotNull</code> annotations in our code.</p>
+
+<p><img src="/images/android-minimalism-03.png" alt="" class="mx-auto d-block" /></p>
+<p style="color:gray; font-size:80%;" align="center">How can someone program Java without nullable?</p>
+
+<p>Yeah, that’s pretty bad, but even with Proguard enabled I don’t want to use the Android Jetpack libraries unless I absolutely need them at some point.</p>
+
+<h1 id="kotlin-to-the-rescue">Kotlin to the rescue?</h1>
+
+<p>My first thought was to start building the app in Java because I was sure that adding the Kotlin runtime would also increase the app size too much. But as anything in programming goes like, testing is the most reliable way to check any hypothesis. I used Android Studio to configure Kotlin in the project and convert my MainActivity to a <code class="language-plaintext highlighter-rouge">.kt</code> file just to see what the app size would be:</p>
+
+<p><img src="/images/android-minimalism-04.png" alt="" class="mx-auto d-block" /></p>
+<p style="color:gray; font-size:80%;" align="center">94.21 KB! That’s a small price to pay for the benefits of the Kotlin language.</p>
+
+<p>So it turns out that adding the Kotlin runtime doesn’t actually bloat the app a lot, as long as Proguard is activated and removing all unused code. The first and main benefit of using Kotlin is that I know which objects can be null or not without using Java annotations directly in my code.</p>
+
+<p><img src="/images/android-minimalism-05.png" alt="" class="mx-auto d-block" /></p>
+<p style="color:gray; font-size:80%;" align="center">Kotlin knows and enforces that savedInstanceState is a nullable Bundle.</p>
+
+      </article>
+
+      
+        <div class="blog-tags">
+          <span>Tags:</span>
+          
+            <a href="/tags#android">android</a>
+          
+            <a href="/tags#software-development">software-development</a>
+          
+            <a href="/tags#minimalism">minimalism</a>
+          
+        </div>
+      
+
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=Writing+a+minimalist+Android+client%2C+part+1&url=https%3A%2F%2Fdielsonsales.github.io%2F2021-03-07-minimalist-android-app%2F"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdielsonsales.github.io%2F2021-03-07-minimalist-android-app%2F"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdielsonsales.github.io%2F2021-03-07-minimalist-android-app%2F"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+  
+
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a class="page-link" href="/2020-02-28-test-markdown/" data-toggle="tooltip" data-placement="top" title="Sample blog post">&larr; Previous Post</a>
+        </li>
+        
+        
+        <li class="page-item next">
+          <a class="page-link" href="/2022-12-10-installing-oracle-database-for-the-first-time/" data-toggle="tooltip" data-placement="top" title="Installing an Oracle Database for the first time">Next Post &rarr;</a>
+        </li>
+        
+      </ul>
+      
+  
+  
+  
+
+  
+
+
+  
+
+  
+
+
 
     </div>
   </div>
