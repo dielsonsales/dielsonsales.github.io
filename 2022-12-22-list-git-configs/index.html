@@ -9,13 +9,13 @@
 
   
 
-  <title>My personal list of great articles</title>
+  <title>My List of Interesting and Important Git Configurations</title>
 
   
   <meta name="author" content="Dielson Sales">
   
 
-  <meta name="description" content="Whenever I come across a great article I keep it as a reference for the time when I want to recommend it to someone or when I want to read it again months later. So in order to share it to the world, this is a list of my favorite...">
+  <meta name="description" content="Since I use git daily on my job and also on personal projects and experiments, I’m compiling here some nice configuration options and tricks that will help not just me but also anyone who stumble upon this article. It’s important to note this is an ongoing article I’ll be updating...">
 
   
 
@@ -76,17 +76,19 @@
 
   
   <meta property="og:site_name" content="Por Fazer">
-  <meta property="og:title" content="My personal list of great articles">
-  <meta property="og:description" content="Whenever I come across a great article I keep it as a reference for the time when I want to recommend it to someone or when I want to read it again months later. So in order to share it to the world, this is a list of my favorite...">
+  <meta property="og:title" content="My List of Interesting and Important Git Configurations">
+  <meta property="og:description" content="Since I use git daily on my job and also on personal projects and experiments, I’m compiling here some nice configuration options and tricks that will help not just me but also anyone who stumble upon this article. It’s important to note this is an ongoing article I’ll be updating...">
 
   
   <meta property="og:image" content="https://dielsonsales.github.io/assets/img/avatar-icon.jpg">
   
 
   
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://dielsonsales.github.io/favorite-articles/">
-  <link rel="canonical" href="https://dielsonsales.github.io/favorite-articles/">
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Dielson Sales">
+  <meta property="og:article:published_time" content="2022-12-22T23:51:00-03:00">
+  <meta property="og:url" content="https://dielsonsales.github.io/2022-12-22-list-git-configs/">
+  <link rel="canonical" href="https://dielsonsales.github.io/2022-12-22-list-git-configs/">
   
 
   
@@ -95,8 +97,8 @@
   <meta name="twitter:site" content="@">
   <meta name="twitter:creator" content="@">
 
-  <meta property="twitter:title" content="My personal list of great articles">
-  <meta property="twitter:description" content="Whenever I come across a great article I keep it as a reference for the time when I want to recommend it to someone or when I want to read it again months later. So in order to share it to the world, this is a list of my favorite...">
+  <meta property="twitter:title" content="My List of Interesting and Important Git Configurations">
+  <meta property="twitter:description" content="Since I use git daily on my job and also on personal projects and experiments, I’m compiling here some nice configuration options and tricks that will help not just me but also anyone who stumble upon this article. It’s important to note this is an ongoing article I’ll be updating...">
 
   
   <meta name="twitter:image" content="https://dielsonsales.github.io/assets/img/avatar-icon.jpg">
@@ -270,11 +272,11 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="post-heading">
-          <h1>My personal list of great articles</h1>
+          <h1>My List of Interesting and Important Git Configurations</h1>
           
 
           
-            <span class="post-meta">Posted on March 17, 2021</span>
+            <span class="post-meta">Posted on December 22, 2022</span>
             
             
           
@@ -298,79 +300,102 @@
       
 
       <article role="main" class="blog-post">
-        <p>Whenever I come across a great article I keep it as a reference for the time when I want to recommend it to someone or when I want to read it again months later. So in order to share it to the world, this is a list of my favorite and insightful articles for whoever gets interested about it:</p>
+        <p>Since I use git daily on my job and also on personal projects and experiments, I’m compiling here some nice configuration options and tricks that will help not just me but also anyone who stumble upon this article.</p>
 
-<h3 id="software-minimalism">Software minimalism</h3>
+<p>It’s important to note this is an ongoing article I’ll be updating as I learn more about git and other options that are relevant to me.</p>
 
-<ul>
-  <li><a href="https://benhoyt.com/writings/the-small-web-is-beautiful/">The small web is beautiful</a></li>
-  <li><a href="https://localghost.dev/blog/building-a-website-like-it-s-1999-in-2022/">Building a website like its 1999… in 2022</a></li>
-  <li><a href="https://bdickason.com/posts/speed-is-the-killer-feature/">Speed is the killer feature</a></li>
-  <li><a href="https://tonsky.me/blog/disenchantment/">Software disenchantment</a></li>
-  <li><a href="https://pxlnv.com/blog/bullshit-web/">The bullshit web</a></li>
-  <li><a href="https://josephg.com/blog/electron-is-flash-for-the-desktop/">Electron is flash for the desktop</a></li>
-  <li><a href="https://www.joelonsoftware.com/2001/12/11/back-to-basics/">Back to basics</a></li>
-</ul>
+<h1 id="always-show-signature-when-you-do-a-git-log">Always show signature when you do a git log</h1>
 
-<h3 id="fundamentals">Fundamentals</h3>
+<p>Whever I started signing all my commits, one habbit I developed over time was to always use the option –show-signature and –graph when doing a git log. So at some point I looked up if there’s a way to make git always show the signature options without the need to remember this extra option (even though fish will usually remind me).</p>
 
-<ul>
-  <li><a href="https://jroweboy.github.io/c/asm/2015/01/26/when-is-main-not-a-function.html">Main is usually a function. So when is it not?</a></li>
-</ul>
+<p>It turns out you can. Just set the option with:</p>
 
-<h3 id="software-engineering">Software engineering</h3>
-
-<ul>
-  <li><a href="https://www.simplethread.com/why-does-it-take-so-long-to-build-software/">Why does it take so long to build software?</a></li>
-  <li><a href="https://blog.codinghorror.com/code-its-trivial/">Code: It’s trivial</a></li>
-  <li><a href="https://mrjoelkemp.medium.com/a-single-action-that-will-level-you-up-as-a-software-engineer-d5cd2d0e4787">If you want to level up as an engineer, read the code. All of it</a></li>
-  <li><a href="https://www.linkedin.com/pulse/hard-thing-software-development-jesse-watson">The hard thing about software development</a></li>
-  <li><a href="https://sandimetz.com/blog/2016/1/20/the-wrong-abstraction">The wrong abstraction</a></li>
-  <li><a href="https://www.joelonsoftware.com/2001/07/21/good-software-takes-ten-years-get-used-to-it/">Good software takes ten years. Get used to it</a></li>
-  <li><a href="http://alexandros.resin.io/the-software-development-poverty-trap/">The software development poverty trap</a></li>
-  <li><a href="https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/">Things You Should Never Do, Part I</a></li>
-  <li><a href="https://www.ybrikman.com/writing/2014/05/19/dont-learn-to-code-learn-to-think/">Don’t learn to code. Learn to think</a></li>
-  <li><a href="https://www.donedone.com/blog/five-test-cases-for-fewer-bugs/">Want to introduce fewer bugs? Test through these five cases</a></li>
-  <li><a href="https://www.onstartups.com/tabid/3339/bid/2596/Why-You-Should-Almost-Never-Rewrite-Your-Software.aspx">Why you should (almost) never rewrite your software</a></li>
-  <li><a href="https://codeahoy.com/2016/06/03/write-less-code/">Write less code</a></li>
-  <li><a href="https://davmac.wordpress.com/2016/07/05/why-do-we-keep-building-rotten-foundations/">Why do we keep building rotten foundations?</a></li>
-  <li><a href="https://techcrunch.com/2016/07/24/how-much-does-it-matter-if-your-software-quality-sucks/amp/">How much does it matter if you software quality sucks?</a></li>
-</ul>
-
-<h3 id="programming-languages">Programming languages</h3>
-
-<ul>
-  <li><a href="https://www.sebastiansylvan.com/post/why-most-high-level-languages-are-slow/">Why (most) high level languages are slow</a></li>
-</ul>
-
-<h3 id="ios--android">iOS &amp; Android</h3>
-
-<ul>
-  <li><a href="https://medium.com/flawless-app-stories/the-only-viable-ios-architecture-c42f7b4c845d">The only viable iOS architecture</a></li>
-  <li><a href="https://stefan-lesser.com/2018/06/20/on-apples-love-affair-with-swift/">On Apple’s love affair with Swift</a></li>
-  <li><a href="http://www.joshlehman.com/thoughts/stop-using-the-cup-of-coffee-vs-0-99-cent-app-analogy/">Stop using the cup of coffee vs. $0.99 app analogy</a></li>
-  <li><a href="https://medium.com/luizalabs/descomplicando-a-clean-architecture-cf4dfc4a1ac6">Descomplicando a Clean Arquitecture</a></li>
-</ul>
-
-<h3 id="open-source">Open source</h3>
-
-<ul>
-  <li><a href="https://www.ianbicking.org/blog/2019/03/open-source-doesnt-make-money-by-design.html">Open Source doesn’t make money because it isn’t designed to make money</a></li>
-</ul>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> log.showSignature <span class="nb">true</span>
+</code></pre></div></div>
 
       </article>
 
       
+        <div class="blog-tags">
+          <span>Tags:</span>
+          
+            <a href="/tags#git">git</a>
+          
+            <a href="/tags#software-development">software-development</a>
+          
+        </div>
+      
 
       
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=My+List+of+Interesting+and+Important+Git+Configurations&url=https%3A%2F%2Fdielsonsales.github.io%2F2022-12-22-list-git-configs%2F"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdielsonsales.github.io%2F2022-12-22-list-git-configs%2F"
+      class="btn btn-social-icon btn-facebook" title="Share on Facebook">
+      <span class="fab fa-fw fa-facebook" aria-hidden="true"></span>
+      <span class="sr-only">Facebook</span>
+    </a>
+  
+
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fdielsonsales.github.io%2F2022-12-22-list-git-configs%2F"
+      class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+  
+
+  
+
+</section>
+
+
 
       
 
       <ul class="pagination blog-pager">
         
+        <li class="page-item previous">
+          <a class="page-link" href="/2022-12-10-installing-oracle-database-for-the-first-time/" data-toggle="tooltip" data-placement="top" title="Installing an Oracle Database for the first time">&larr; Previous Post</a>
+        </li>
+        
+        
+        <li class="page-item next">
+          <a class="page-link" href="/2023-05-11-starting-a-new-blog/" data-toggle="tooltip" data-placement="top" title="Starting a new blog">Next Post &rarr;</a>
+        </li>
         
       </ul>
       
+  
+  
+  
+
+  
+
+
+  
+
+  
+
+
 
     </div>
   </div>

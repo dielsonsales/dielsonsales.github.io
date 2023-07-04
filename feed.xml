@@ -23,6 +23,17 @@
       </item>
     
       <item>
+        <title>My List of Interesting and Important Git Configurations</title>
+        <description>
+          
+          Since I use git daily on my job and also on personal projects and experiments, I’m compiling here some nice configuration options and tricks that will help not just me but also anyone who stumble upon this article. It’s important to note this is an ongoing article I’ll be updating...
+        </description>
+        <pubDate>Thu, 22 Dec 2022 23:51:00 -0300</pubDate>
+        <link>https://dielsonsales.github.io/2022-12-22-list-git-configs/</link>
+        <guid isPermaLink="true">https://dielsonsales.github.io/2022-12-22-list-git-configs/</guid>
+      </item>
+    
+      <item>
         <title>Installing an Oracle Database for the first time</title>
         <description>
           
