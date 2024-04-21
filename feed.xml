@@ -1,81 +1,218 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    
-    <title>Por Fazer</title>
-    
-    
-    <description>Por Fazer</description>
-    
-    <link>https://dielsonsales.github.io/</link>
-    <atom:link href="https://dielsonsales.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    
-    
-      <item>
-        <title>Starting a new blog</title>
-        <description>
-          Or writing as a learning tool - 
-          It’s been a while since I last wrote blog posts and after reading a nice post about this, I feel like it’s time to get back on track researching and posting summaries of things that I’ve learned recently. It’s also worth noting that with the rise of ChatGPT it’s been...
-        </description>
-        <pubDate>Thu, 11 May 2023 00:00:00 -0300</pubDate>
-        <link>https://dielsonsales.github.io/2023-05-11-starting-a-new-blog/</link>
-        <guid isPermaLink="true">https://dielsonsales.github.io/2023-05-11-starting-a-new-blog/</guid>
-      </item>
-    
-      <item>
-        <title>My List of Interesting and Important Git Configurations</title>
-        <description>
-          
-          Since I use git daily on my job and also on personal projects and experiments, I’m compiling here some nice configuration options and tricks that will help not just me but also anyone who stumble upon this article. It’s important to note this is an ongoing article I’ll be updating...
-        </description>
-        <pubDate>Thu, 22 Dec 2022 23:51:00 -0300</pubDate>
-        <link>https://dielsonsales.github.io/2022-12-22-list-git-configs/</link>
-        <guid isPermaLink="true">https://dielsonsales.github.io/2022-12-22-list-git-configs/</guid>
-      </item>
-    
-      <item>
-        <title>Installing an Oracle Database for the first time</title>
-        <description>
-          
-          In this article, I mean to document my journey planning, installing and deploying an Oracle database for the first time. Learning this was a requirement to do some projects in my database classes in college, so it’ll be useful to document things here while it’s still fresh in my mind....
-        </description>
-        <pubDate>Sat, 10 Dec 2022 18:00:00 -0300</pubDate>
-        <link>https://dielsonsales.github.io/2022-12-10-installing-oracle-database-for-the-first-time/</link>
-        <guid isPermaLink="true">https://dielsonsales.github.io/2022-12-10-installing-oracle-database-for-the-first-time/</guid>
-      </item>
-    
-      <item>
-        <title>Writing a minimalist Android client, part 1</title>
-        <description>
-          
-          So I was reading recently a nice article called “The small web is beautiful” which got me inspired to take this concept to Android apps. For a long time already, I’ve used Boost to read posts on Reddit and I wanted to build something similar that would make reading comments...
-        </description>
-        <pubDate>Sun, 07 Mar 2021 15:35:00 -0300</pubDate>
-        <link>https://dielsonsales.github.io/2021-03-07-minimalist-android-app/</link>
-        <guid isPermaLink="true">https://dielsonsales.github.io/2021-03-07-minimalist-android-app/</guid>
-      </item>
-    
-      <item>
-        <title>Sample blog post</title>
-        <description>
-          Each post also has a subtitle - 
-          This is a demo post to show you how to write blog posts with markdown. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc. Here is some bold text Here is a secondary...
-        </description>
-        <pubDate>Fri, 28 Feb 2020 00:00:00 -0300</pubDate>
-        <link>https://dielsonsales.github.io/2020-02-28-test-markdown/</link>
-        <guid isPermaLink="true">https://dielsonsales.github.io/2020-02-28-test-markdown/</guid>
-      </item>
-    
-      <item>
-        <title>Flake it till you make it</title>
-        <description>
-          Excerpt from Soulshaping by Jeff Brown - 
-          Under what circumstances should we step off a path? When is it essential that we finish what we start? If I bought a bag of peanuts and had an allergic reaction, no one would fault me if I threw it out. If I ended a relationship with a woman who...
-        </description>
-        <pubDate>Wed, 26 Feb 2020 00:00:00 -0300</pubDate>
-        <link>https://dielsonsales.github.io/2020-02-26-flake-it-till-you-make-it/</link>
-        <guid isPermaLink="true">https://dielsonsales.github.io/2020-02-26-flake-it-till-you-make-it/</guid>
-      </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://dielsonsales.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dielsonsales.github.io/" rel="alternate" type="text/html" /><updated>2024-04-21T22:04:31+00:00</updated><id>https://dielsonsales.github.io/feed.xml</id><title type="html">Por Fazer</title><subtitle>A blog for turning my personal notes into public posts.</subtitle><entry><title type="html">Starting a new blog</title><link href="https://dielsonsales.github.io/2023/05/11/starting-a-new-blog.html" rel="alternate" type="text/html" title="Starting a new blog" /><published>2023-05-11T00:00:00+00:00</published><updated>2023-05-11T00:00:00+00:00</updated><id>https://dielsonsales.github.io/2023/05/11/starting-a-new-blog</id><content type="html" xml:base="https://dielsonsales.github.io/2023/05/11/starting-a-new-blog.html"><![CDATA[<p>It’s been a while since I last wrote blog posts and after reading <a href="https://simonwillison.net/2022/Nov/6/what-to-blog-about/">a nice post about this</a>, I feel like it’s time to get back on track researching and posting summaries of things that I’ve learned recently. It’s also worth noting that with the <a href="https://web.archive.org/web/20230504032613/https://help.openai.com/en/articles/6825453-chatgpt-release-notes">rise of ChatGPT</a> it’s been easier than ever to have interesting conversations that spark the crave to learn more about some subject. It’s an opportunity to eventually grow as a software engineer and to better structure the knowledge I’m acquiring.</p>
+
+<h3 id="writing-as-a-learning-tool">Writing as a learning tool</h3>
+
+<p>From all the possible goals that I could have from writing, my main goal with blogging has always been the pressure it gives me to research a topic well before writing about it, besides analyzing different sides to reach a balanced and more neutral opinion. Blogging can be a powerful tool not just for learning, but for critical thinking.</p>
+
+<p>As discussed in this nice <a href="https://fs.blog/why-write/">article</a>:</p>
+
+<blockquote>
+  <p>Writing is the process by which you realize that you do not understand what you are talking about. […] writing is also the process by which you figure it out.</p>
+</blockquote>
+
+<p>In a presentation on a Microsoft Research conference, Leslie Lamport talks about how writing is an important step into structuring any idea. According to him:</p>
+
+<ul>
+  <li>To think, you have to write.</li>
+  <li>If you’re thinking without writing, chances are you’re fooling yourself.</li>
+</ul>
+
+<p>One thing I love about ChatGPT and its ability to discuss ideas is the possibility of asking for it to “ELI5” some concept or idea. This is interesting because the best way to know if someone really understand something is their ability to explain it in simple terms. This is the idea behind subreddits like <a href="https://www.reddit.com/r/explainlikeimfive/">Explain like I’m Five</a>.</p>
+
+<p>By forcing yourself to explain something in simple terms, it is <strong>necessary</strong> to have a good grasp of the concepts you want to explain. The problem here is that very often we think we know something when we don’t, and this is known as the illusion of knowledge.</p>
+
+<h3 id="the-illusion-of-knowledge-or-illusion-of-explanatory-depth">The illusion of knowledge (or illusion of explanatory depth)</h3>
+
+<p><a href="https://www.bbc.com/worklife/article/20220812-the-illusion-of-knowledge-that-makes-people-overconfident">This BBC article</a> discusses the problem in which most people think they know more than they actually do until they’re presented with a question to explain something more in-depth. It seems this problem arises in a few different ways:</p>
+
+<ul>
+  <li>Believing you know something when you just have a superficial grasp of the concept (ex: you watched a 20 min. Youtube video about it).</li>
+  <li>Believing you know something because you used to know it, but the details and the practice of it have already faded from your memory.</li>
+  <li>Believing you know something because you saw someone else do it, but you actually have no idea which knowledge or skillset they used.</li>
+  <li>Believing you know something because it’s easy to find the answer (ex: Googling it).</li>
+  <li>Believing you know something because people around you know it.</li>
+</ul>
+
+<p>I shouldn’t have to say how much all this can hurt us in our jobs and personal life. Luckily, the BBC article also presents a solution to prevent this problem:</p>
+
+<blockquote>
+  <p>What can people do to avoid these traps? One solution is simple: test yourself. […] take a bit more time to think carefully through the steps that you would have to take to achieve the goal. You may find that there are huge gaps in your knowledge that you need to fill.</p>
+</blockquote>
+
+<p>I believe writing about our fields of expertise is exactly the practice that can help us be sure we know what we’re talking about, and by consequence to be sure we know what we’re doing. By engaging in technical writing we explore, reflect and articulate the actual knowledge we have, filling the gaps in the process.</p>
+
+<h3 id="becoming-more-humble">Becoming more humble</h3>
+
+<p>At the bottom line of all this lies a fact that many of us ignore: our minds are much more confused and forgetful than we’d like to admit. We often forget things, and by having a practice of filling our knowledge gaps from time to time, we can benefit enormously long-term.</p>
+
+<p>Dale Carnegie, author of <a href="https://en.wikipedia.org/wiki/How_to_Win_Friends_and_Influence_People">How to Win Friends and Influence People</a> starts his famous book by saying:</p>
+
+<blockquote>
+  <p>I once spent almost two years writing a book on public speaking and yet I found I had to keep going back over it from time to time in order to remember what I had written in my own book. The rapidity with which we forget is astonishing.</p>
+</blockquote>
+
+<p>So a few things can be taken from these insights:</p>
+
+<ul>
+  <li>We should <em>never</em> assume we actually know something without trying to sctructure our knowledge about it first.</li>
+  <li>We need to constantly revisit or use something if we want to actually retain the information contained in it.</li>
+  <li>Summarizing is a good way to make sure you keep the information that matters to you. But summarization needs to be done in a way that makes sense for your mind, hence why we developed methods such as <em>mind maps</em>.</li>
+</ul>
+
+<p>So in conclusion, this is a short introduction on the reasons I think writing (and especially technical writing) is an important way to keep myself growing in my career. And I hope I can look back to it in the future and see how it helped me move on from moments I felt stuck in life.</p>
+
+<h3 id="related-links">Related links</h3>
+
+<ul>
+  <li><a href="https://fs.blog/why-write/">Why write</a>.</li>
+  <li><a href="https://www.bbc.com/worklife/article/20220812-the-illusion-of-knowledge-that-makes-people-overconfident">The illusion of knowledge that makes people overconfident</a></li>
+  <li><a href="https://students.ubc.ca/ubclife/science-why-we-forget-what-we-just-learned">The science of why we forget what we (just) learned</a></li>
+  <li><a href="https://www.youtube.com/watch?v=-4Yp3j_jk8Q">Leslie Lamport: Thinking above the code</a></li>
+</ul>]]></content><author><name></name></author><category term="learning" /><category term="writing" /><summary type="html"><![CDATA[It’s been a while since I last wrote blog posts and after reading a nice post about this, I feel like it’s time to get back on track researching and posting summaries of things that I’ve learned recently. It’s also worth noting that with the rise of ChatGPT it’s been easier than ever to have interesting conversations that spark the crave to learn more about some subject. It’s an opportunity to eventually grow as a software engineer and to better structure the knowledge I’m acquiring.]]></summary></entry><entry><title type="html">My List of Interesting and Important Git Configurations</title><link href="https://dielsonsales.github.io/2022/12/23/list-git-configs.html" rel="alternate" type="text/html" title="My List of Interesting and Important Git Configurations" /><published>2022-12-23T02:51:00+00:00</published><updated>2022-12-23T02:51:00+00:00</updated><id>https://dielsonsales.github.io/2022/12/23/list-git-configs</id><content type="html" xml:base="https://dielsonsales.github.io/2022/12/23/list-git-configs.html"><![CDATA[<p>Since I use git daily on my job and also on personal projects and experiments, I’m compiling here some nice configuration options and tricks that will help not just me but also anyone who stumble upon this article.</p>
+
+<p>It’s important to note this is an ongoing article I’ll be updating as I learn more about git and other options that are relevant to me.</p>
+
+<h1 id="always-show-signature-when-you-do-a-git-log">Always show signature when you do a git log</h1>
+
+<p>Whever I started signing all my commits, one habbit I developed over time was to always use the option –show-signature and –graph when doing a git log. So at some point I looked up if there’s a way to make git always show the signature options without the need to remember this extra option (even though fish will usually remind me).</p>
+
+<p>It turns out you can. Just set the option with:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> log.showSignature <span class="nb">true</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="git" /><category term="software-development" /><summary type="html"><![CDATA[Since I use git daily on my job and also on personal projects and experiments, I’m compiling here some nice configuration options and tricks that will help not just me but also anyone who stumble upon this article.]]></summary></entry><entry><title type="html">Installing an Oracle Database for the first time</title><link href="https://dielsonsales.github.io/2022/12/10/installing-oracle-database-for-the-first-time.html" rel="alternate" type="text/html" title="Installing an Oracle Database for the first time" /><published>2022-12-10T21:00:00+00:00</published><updated>2022-12-10T21:00:00+00:00</updated><id>https://dielsonsales.github.io/2022/12/10/installing-oracle-database-for-the-first-time</id><content type="html" xml:base="https://dielsonsales.github.io/2022/12/10/installing-oracle-database-for-the-first-time.html"><![CDATA[<p>In this article, I mean to document my journey planning, installing and deploying an Oracle database for the first time. Learning this was a requirement to do some projects in my database classes in college, so it’ll be useful to document things here while it’s still fresh in my mind.</p>
+
+<h1 id="environment">Environment</h1>
+
+<p>All steps in this article were done on a Windows 11 instance running on top of VMWare, and macOS Monterey being the host OS.</p>
+
+<h1 id="understanding-the-different-concepts-in-oracle">Understanding the different concepts in Oracle</h1>
+
+<p>The first thing that was a surprise for me when learning to use an Oracle database was that the concepts present in other databases are a <em>bit different</em> here.</p>
+
+<p>For instance, in MySQL you can connect to the database with any user and then use the command use <code class="language-plaintext highlighter-rouge">&lt;db_name&gt;</code> to switch to the database you want, and each database is isolated from each other.</p>
+
+<p>Oracle databases don’t work like that, because each database is like a whole separate installation with different configurations and different users. The closer we have to the MySQL concept of <code class="language-plaintext highlighter-rouge">db</code> is a <code class="language-plaintext highlighter-rouge">scheme</code>, which in the Oracle world is nothing more than an <em>user</em>. A scheme/user can only see the the parts of the database that belong to itself or to other users that granted it permission to do so, so by switching users and managing permissions, you get to change what tables each user can see and modify.</p>
+
+<h1 id="installing-the-database">Installing the Database</h1>
+
+<p>The Windows installer used was downloaded from the official Oracle website. An user acount is needed to download the installer, but except from that, the process is straightforward and I was pleasantly surprised to discover that even the <em>Enterprise Editions</em> of the database are free for personal use and self learn.</p>
+
+<p>The database downloaded was the <em>Oracle Database 19c version 19.3 Enterprise Edition</em> (because I want to play around with the nice tools it has). The Windows installer is 2.89GB compressed and after being uncompressed the whole folder has 6.05GB and a <code class="language-plaintext highlighter-rouge">setup.exe</code> binary with a lot of folders.</p>
+
+<p><strong>OBS:</strong> An inportant catch here is that when you click setup.exe, the database home folder will be the same unzipped folder. So the first I had to do was to move it somewhere else. I created a folder <code class="language-plaintext highlighter-rouge">C:\app</code> and renamed the extracted folder to <code class="language-plaintext highlighter-rouge">db_home_1</code> (the numbering comes from the fact we can have multiple Oracle home folders), placing everything under <code class="language-plaintext highlighter-rouge">C:\app\db_home_1</code>. This seems to be the recommended or at least standardized folder structure adopted by Oracle admins.</p>
+
+<p>After executing the setup binary, a setup wizard is started to guide the whole installation process. The choices selected were:</p>
+
+<ul>
+  <li>Configuration Option → Create and configure a single instance database;</li>
+  <li>System Class → Desktop class;</li>
+  <li>Oracle Home User → Use virtual account;</li>
+</ul>
+
+<p>Oracle says that:</p>
+
+<blockquote>
+  <p>This Oracle Home User is used to run the Windows services for an Oracle home, and is similar to the oracle user on Oracle Database on Linux. This user is associated with an Oracle home and cannot be changed to a different user post installation. […] For enhanced security, Oracle recommends that a standard Windows User Account be chosen.</p>
+</blockquote>
+
+<p>In the Typical Installation step, I filled the form with mostly default values, but set my Oracle base to the folder inside <code class="language-plaintext highlighter-rouge">C:\app\Dielson</code> (since my OS user folder is Dielson). Using <code class="language-plaintext highlighter-rouge">C:\app\&lt;user&gt;</code> seems to be another standard adopted by Oracle admins:</p>
+
+<p><img src="/images/oracle-01.png" alt="" />
+<em>One of the most important configuration options in the installation process</em></p>
+
+<p>I’ll also set the password (in this case, the <code class="language-plaintext highlighter-rouge">sys</code> user password of the database) to <code class="language-plaintext highlighter-rouge">oracle</code>, even though it gives us a warning that it’s a weak password. I’ll also set <em>Create as Container database check</em> disabled for this example, since it introduces unneeded complexity (and I’m yet to understand how pluggable databases affect the DDL commands in detail). After that, the other steps just finish the whole installation.</p>
+
+<h1 id="adding-the-environment-variables">Adding the environment variables</h1>
+
+<p>To have the Oracle command-line scripts available to us from the command line, it’s necessary to set the environment variables. Going to <em>Settings &gt; System &gt; Advanced System Settings</em>, in the <code class="language-plaintext highlighter-rouge">Advanced</code> tab click <code class="language-plaintext highlighter-rouge">Environment Variables</code> and add a new entry in the <code class="language-plaintext highlighter-rouge">System Variables</code> named <code class="language-plaintext highlighter-rouge">Oracle Home</code> and with value <code class="language-plaintext highlighter-rouge">C:\app\db_home_1</code>. Then edit the <code class="language-plaintext highlighter-rouge">PATH</code> variable and add a new entry like <code class="language-plaintext highlighter-rouge">%ORACLE_HOME%\bin</code>. In my case, there was already a full path pointing to <code class="language-plaintext highlighter-rouge">C:\app\db_home_1\bin</code>, but I deleted that in favor or using the <code class="language-plaintext highlighter-rouge">ORACLE_HOME</code> variable instead.</p>
+
+<h1 id="connecting-to-the-database-using-sql-developer">Connecting to the database using SQL Developer</h1>
+
+<p>I downloaded and installed SQL Developer, which is an Oracle UI tool to manage an Oracle database visually as well as running custom SQL/DDL commands. I created a new connection with the database using the following parameters (the password is whatever you set at the install process):</p>
+
+<p><img src="/images/oracle-02.png" alt="" /></p>
+
+<p><img src="/images/oracle-03.png" alt="" /></p>
+
+<p><em>When connected to the database, it’s possible to expand and see all the tables owned by that user</em></p>
+
+<p>Here I can see that the <code class="language-plaintext highlighter-rouge">sys</code> user/scheme has a bunch of tables, views, indexes etc. which are all used to get information about the database as a whole. This seems like a lot of pollution at first, but remember that if a user isn’t owner of a table it won’t see that table, so we can create users/schemes that show the Tables section completely clean.</p>
+
+<h1 id="managing-users">Managing users</h1>
+
+<p>From that, I tried creating a new “non-dba” user for myself in SQL Developer and it seemed to work fine. As I’ve learned leater on, it’s important to create the username all UPPERCASE otherwise you’re gonna have to use quotes all the time when connecting on SQL Developer, which makes it kind of weird:</p>
+
+<p><img src="/images/oracle-04.png" alt="" /></p>
+
+<p>Now it’s possible to create a connection with the database using my newly created user:</p>
+
+<p><img src="/images/oracle-05.png" alt="" /></p>
+
+<p>Since my new user doesn’t own any table and wasn’t given access to any specific table, the tables, views, indexes, pages etc. will be all empty for now.</p>
+
+<h1 id="references">References</h1>
+
+<p>FERNANDEZ, Ignatius. 2015. <em>Beginning Oracle Database 12c Administration – From Novice to Professional</em>. 2nd Edition. Apress.</p>
+
+<p>Oracle. <em>Oracle Database 12c – Introducing the Oracle Home User in Oracle Database 12c for Microsoft Windows</em>. Accessible on: <a href="https://www.oracle.com/technetwork/database/windows/tech-info/oraclehomeuser-windowsdb-12c-1970558.pdf">link</a>.</p>
+
+<p>SHARMA, Manish. 2019. <em>How to Install Oracle Database 19c on Windows 10 by Manish Sharma</em>. Manish Sharma YouTube channel. Accessible on: <a href="https://www.youtube.com/watch?v=Hnpmy2kB5Mo">link</a>.</p>]]></content><author><name></name></author><category term="oracle" /><category term="database" /><summary type="html"><![CDATA[In this article, I mean to document my journey planning, installing and deploying an Oracle database for the first time. Learning this was a requirement to do some projects in my database classes in college, so it’ll be useful to document things here while it’s still fresh in my mind.]]></summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="https://dielsonsales.github.io/jekyll/update/2021/03/31/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-03-31T12:05:47+00:00</published><updated>2021-03-31T12:05:47+00:00</updated><id>https://dielsonsales.github.io/jekyll/update/2021/03/31/welcome-to-jekyll</id><content type="html" xml:base="https://dielsonsales.github.io/jekyll/update/2021/03/31/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Writing a minimalist Android client, part 1</title><link href="https://dielsonsales.github.io/2021/03/07/minimalist-android-app.html" rel="alternate" type="text/html" title="Writing a minimalist Android client, part 1" /><published>2021-03-07T18:35:00+00:00</published><updated>2021-03-07T18:35:00+00:00</updated><id>https://dielsonsales.github.io/2021/03/07/minimalist-android-app</id><content type="html" xml:base="https://dielsonsales.github.io/2021/03/07/minimalist-android-app.html"><![CDATA[<p>So I was reading recently a nice article called “<a href="https://benhoyt.com/writings/the-small-web-is-beautiful/">The small web is beautiful</a>” which got me inspired to take this concept to Android apps. For a long time already, I’ve used <a href="https://play.google.com/store/apps/details?id=com.rubenmayayo.reddit&amp;hl=en&amp;gl=US">Boost</a> to read posts on Reddit and I wanted to build something similar that would make reading comments on Hacker News just as pleasant. So in this series of articles, I’ll show all the process I’ve used to create a simple Android app to browse Hacker News and read the comments. But I’ll be trying to make as small as possible, for as long as it’s reasonable to do so.</p>
+
+<h1 id="bloated-apps-a-little-bit-of-context">Bloated apps: a little bit of context</h1>
+
+<p>Android apps have suffered for a long time from the <a href="https://bandwidthblog.co.za/2020/12/27/android-fragmentation-2020/">fragmentation problem</a>, and to solve that Google has been gradually focusing on moving functionality from the Android APIs to their <a href="https://developer.android.com/topic/libraries/support-library">Support Library</a> (currently rebranded to Android Jetpack). If you don’t know what Android Jetpack is, here’s the description in Google’s <a href="https://developer.android.com/jetpack">official website</a>:</p>
+
+<blockquote>
+  <p>Jetpack is a suite of libraries to help developers follow best practices, reduce boilerplate code, and write code that works consistently across Android versions and devices so that developers can focus on the code they care about.</p>
+</blockquote>
+
+<p>So basically, the Support Libraries contained a lot of features back-ported to older versions of Android and made sure some features behaved the same way across different versions of Android. The new Jetpack libraries do the same, but also contain some extra stuff that aim to standardize the way most apps are built. The problem with this approach is that a lot of code gets embedded in the apps instead of using the already available functions in the Android system itself.</p>
+
+<h1 id="starting-the-project">Starting the project</h1>
+
+<p>When you first create an Android app on Android Studio, it automatically adds some Android Jetpack libraries in your app, but those libraries basically make your app too big for our concept of “tiny app”. I removed everything that’s not really necessary (including the standard icons) to see what it looks like after installed:</p>
+
+<p><img src="/images/android-minimalism-01.png" alt="" class="mx-auto d-block" /></p>
+<p style="color:gray; font-size:80%;" align="center">1.69MB! That’s not tiny for an app that only shows “Hello world” in the screen.</p>
+
+<p>So for a start I wanted to know how small a modern Android app can be <em>without</em> any boilerplate or libraries. This would set our bar for future comparisons. For this purpose we’re going to start without any libraries or unnecessary dependencies, which means we’re going to ditch the whole Google’s libraries (at least for now…).</p>
+
+<p>Running again we have:</p>
+
+<p><img src="/images/android-minimalism-02.png" alt="" class="mx-auto d-block" /></p>
+<p style="color:gray; font-size:80%;" align="center">Less than 33KB, that’s much better!</p>
+
+<p>Although this size is good, we’d need to make a lot of sacrifices to code like this. One of the problems is that, without the Google libraries, we simply can’t use the <code class="language-plaintext highlighter-rouge">@Nullable</code> and <code class="language-plaintext highlighter-rouge">@NotNull</code> annotations in our code.</p>
+
+<p><img src="/images/android-minimalism-03.png" alt="" class="mx-auto d-block" /></p>
+<p style="color:gray; font-size:80%;" align="center">How can someone program Java without nullable?</p>
+
+<p>Yeah, that’s pretty bad, but even with Proguard enabled I don’t want to use the Android Jetpack libraries unless I absolutely need them at some point.</p>
+
+<h1 id="kotlin-to-the-rescue">Kotlin to the rescue?</h1>
+
+<p>My first thought was to start building the app in Java because I was sure that adding the Kotlin runtime would also increase the app size too much. But as anything in programming goes like, testing is the most reliable way to check any hypothesis. I used Android Studio to configure Kotlin in the project and convert my MainActivity to a <code class="language-plaintext highlighter-rouge">.kt</code> file just to see what the app size would be:</p>
+
+<p><img src="/images/android-minimalism-04.png" alt="" class="mx-auto d-block" /></p>
+<p style="color:gray; font-size:80%;" align="center">94.21 KB! That’s a small price to pay for the benefits of the Kotlin language.</p>
+
+<p>So it turns out that adding the Kotlin runtime doesn’t actually bloat the app a lot, as long as Proguard is activated and removing all unused code. The first and main benefit of using Kotlin is that I know which objects can be null or not without using Java annotations directly in my code.</p>
+
+<p><img src="/images/android-minimalism-05.png" alt="" class="mx-auto d-block" /></p>
+<p style="color:gray; font-size:80%;" align="center">Kotlin knows and enforces that savedInstanceState is a nullable Bundle.</p>]]></content><author><name></name></author><category term="android" /><category term="software-development" /><category term="minimalism" /><summary type="html"><![CDATA[So I was reading recently a nice article called “The small web is beautiful” which got me inspired to take this concept to Android apps. For a long time already, I’ve used Boost to read posts on Reddit and I wanted to build something similar that would make reading comments on Hacker News just as pleasant. So in this series of articles, I’ll show all the process I’ve used to create a simple Android app to browse Hacker News and read the comments. But I’ll be trying to make as small as possible, for as long as it’s reasonable to do so.]]></summary></entry></feed>
