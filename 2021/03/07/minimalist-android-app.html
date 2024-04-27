@@ -7,8 +7,8 @@
 <meta name="generator" content="Jekyll v4.3.3" />
 <meta property="og:title" content="Writing a minimalist Android client, part 1" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="So I was reading recently a nice article called “The small web is beautiful” which got me inspired to take this concept to Android apps. For a long time already, I’ve used Boost to read posts on Reddit and I wanted to build something similar that would make reading comments on Hacker News just as pleasant. So in this series of articles, I’ll show all the process I’ve used to create a simple Android app to browse Hacker News and read the comments. But I’ll be trying to make as small as possible, for as long as it’s reasonable to do so." />
-<meta property="og:description" content="So I was reading recently a nice article called “The small web is beautiful” which got me inspired to take this concept to Android apps. For a long time already, I’ve used Boost to read posts on Reddit and I wanted to build something similar that would make reading comments on Hacker News just as pleasant. So in this series of articles, I’ll show all the process I’ve used to create a simple Android app to browse Hacker News and read the comments. But I’ll be trying to make as small as possible, for as long as it’s reasonable to do so." />
+<meta name="description" content="A blog for turning my personal notes into public posts." />
+<meta property="og:description" content="A blog for turning my personal notes into public posts." />
 <link rel="canonical" href="https://dielsonsales.github.io/2021/03/07/minimalist-android-app.html" />
 <meta property="og:url" content="https://dielsonsales.github.io/2021/03/07/minimalist-android-app.html" />
 <meta property="og:site_name" content="Por Fazer" />
@@ -17,7 +17,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Writing a minimalist Android client, part 1" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2021-03-07T18:35:00+00:00","datePublished":"2021-03-07T18:35:00+00:00","description":"So I was reading recently a nice article called “The small web is beautiful” which got me inspired to take this concept to Android apps. For a long time already, I’ve used Boost to read posts on Reddit and I wanted to build something similar that would make reading comments on Hacker News just as pleasant. So in this series of articles, I’ll show all the process I’ve used to create a simple Android app to browse Hacker News and read the comments. But I’ll be trying to make as small as possible, for as long as it’s reasonable to do so.","headline":"Writing a minimalist Android client, part 1","mainEntityOfPage":{"@type":"WebPage","@id":"https://dielsonsales.github.io/2021/03/07/minimalist-android-app.html"},"url":"https://dielsonsales.github.io/2021/03/07/minimalist-android-app.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2021-03-07T18:35:00+00:00","datePublished":"2021-03-07T18:35:00+00:00","description":"A blog for turning my personal notes into public posts.","headline":"Writing a minimalist Android client, part 1","mainEntityOfPage":{"@type":"WebPage","@id":"https://dielsonsales.github.io/2021/03/07/minimalist-android-app.html"},"url":"https://dielsonsales.github.io/2021/03/07/minimalist-android-app.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://dielsonsales.github.io/feed.xml" title="Por Fazer" /></head>
 <body><header class="site-header" role="banner">
@@ -47,7 +47,14 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p>So I was reading recently a nice article called “<a href="https://benhoyt.com/writings/the-small-web-is-beautiful/">The small web is beautiful</a>” which got me inspired to take this concept to Android apps. For a long time already, I’ve used <a href="https://play.google.com/store/apps/details?id=com.rubenmayayo.reddit&amp;hl=en&amp;gl=US">Boost</a> to read posts on Reddit and I wanted to build something similar that would make reading comments on Hacker News just as pleasant. So in this series of articles, I’ll show all the process I’ve used to create a simple Android app to browse Hacker News and read the comments. But I’ll be trying to make as small as possible, for as long as it’s reasonable to do so.</p>
+    <style type="text/css" media="screen">
+  body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+  }
+</style>
+
+<p>So I was reading recently a nice article called “<a href="https://benhoyt.com/writings/the-small-web-is-beautiful/">The small web is beautiful</a>” which got me inspired to take this concept to Android apps. For a long time already, I’ve used <a href="https://play.google.com/store/apps/details?id=com.rubenmayayo.reddit&amp;hl=en&amp;gl=US">Boost</a> to read posts on Reddit and I wanted to build something similar that would make reading comments on Hacker News just as pleasant. So in this series of articles, I’ll show all the process I’ve used to create a simple Android app to browse Hacker News and read the comments. But I’ll be trying to make as small as possible, for as long as it’s reasonable to do so.</p>
 
 <h1 id="bloated-apps-a-little-bit-of-context">Bloated apps: a little bit of context</h1>
 
