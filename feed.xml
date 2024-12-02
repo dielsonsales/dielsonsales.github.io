@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://dielsonsales.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dielsonsales.github.io/" rel="alternate" type="text/html" /><updated>2024-04-27T14:48:58+00:00</updated><id>https://dielsonsales.github.io/feed.xml</id><title type="html">Por Fazer</title><subtitle>A blog for turning my personal notes into public posts.</subtitle><entry><title type="html">Perfectionism</title><link href="https://dielsonsales.github.io/2024/04/22/perfectionism.html" rel="alternate" type="text/html" title="Perfectionism" /><published>2024-04-22T18:42:00+00:00</published><updated>2024-04-22T18:42:00+00:00</updated><id>https://dielsonsales.github.io/2024/04/22/perfectionism</id><content type="html" xml:base="https://dielsonsales.github.io/2024/04/22/perfectionism.html"><![CDATA[<style type="text/css" media="screen">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://dielsonsales.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://dielsonsales.github.io/" rel="alternate" type="text/html" /><updated>2024-12-02T18:45:31+00:00</updated><id>https://dielsonsales.github.io/feed.xml</id><title type="html">Por Fazer</title><subtitle>A blog for turning my personal notes into public posts.</subtitle><entry><title type="html">Optimized FFmpeg on macOS</title><link href="https://dielsonsales.github.io/2024/12/02/optimized-ffmpeg-macos.html" rel="alternate" type="text/html" title="Optimized FFmpeg on macOS" /><published>2024-12-02T18:13:00+00:00</published><updated>2024-12-02T18:13:00+00:00</updated><id>https://dielsonsales.github.io/2024/12/02/optimized-ffmpeg-macos</id><content type="html" xml:base="https://dielsonsales.github.io/2024/12/02/optimized-ffmpeg-macos.html"><![CDATA[<style type="text/css" media="screen">
+  body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+  }
+</style>
+
+<p>As a long-term FFmpeg user, it’s been a while that I simply used the static build of FFmpeg from the website. However, ever since I got a Mac Mini with Apple Silicon, I was worried about whether all the codecs I was using were properly optimized. I found out a few threads such as <a href="https://www.reddit.com/r/Applesilicon/comments/n8b2iw/ffmpeg_on_apple_sillicon_m1_mac_mini_8gb/">this</a> initially talking about x265 requiring a NEON patch to be 2 to 3 times as fast as the unpatched version.</p>
+
+<p><img src="/images/ffmpeg-x265-benchmark.png" alt="" /></p>
+
+<p>For a while, I assumed the brew installation wasn’t properly optimized and got my FFmpeg build from the <a href="https://www.osxexperts.net">https://www.osxexperts.net</a> website, which supposedly is compiled with all optimizations for the ARM architecture.</p>
+
+<p>After some further investigation though, it seems the current version of FFmpeg available from brew <a href="https://github.com/homebrew-ffmpeg/homebrew-ffmpeg/issues/86#issuecomment-1356673227">already contains the patch</a>, so most people should be good by now.</p>
+
+<p><img src="/images/ffmpeg-neon-brew.png" alt="" /></p>
+
+<p>Some people even confirmed that the encoding speed seems to be the same:</p>
+
+<p><img src="/images/ffmpeg-brew.png" alt="" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Perfectionism</title><link href="https://dielsonsales.github.io/2024/04/22/perfectionism.html" rel="alternate" type="text/html" title="Perfectionism" /><published>2024-04-22T18:42:00+00:00</published><updated>2024-04-22T18:42:00+00:00</updated><id>https://dielsonsales.github.io/2024/04/22/perfectionism</id><content type="html" xml:base="https://dielsonsales.github.io/2024/04/22/perfectionism.html"><![CDATA[<style type="text/css" media="screen">
   body {
     font-family: "Times New Roman", Times, serif;
     font-size: 18px;

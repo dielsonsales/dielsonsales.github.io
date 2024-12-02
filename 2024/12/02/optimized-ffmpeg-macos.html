@@ -3,20 +3,21 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Por Fazer | A blog for turning my personal notes into public posts.</title>
+<title>Optimized FFmpeg on macOS | Por Fazer</title>
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="Por Fazer" />
+<meta property="og:title" content="Optimized FFmpeg on macOS" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A blog for turning my personal notes into public posts." />
 <meta property="og:description" content="A blog for turning my personal notes into public posts." />
-<link rel="canonical" href="https://dielsonsales.github.io/" />
-<meta property="og:url" content="https://dielsonsales.github.io/" />
+<link rel="canonical" href="https://dielsonsales.github.io/2024/12/02/optimized-ffmpeg-macos.html" />
+<meta property="og:url" content="https://dielsonsales.github.io/2024/12/02/optimized-ffmpeg-macos.html" />
 <meta property="og:site_name" content="Por Fazer" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-12-02T18:13:00+00:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Por Fazer" />
+<meta property="twitter:title" content="Optimized FFmpeg on macOS" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"A blog for turning my personal notes into public posts.","headline":"Por Fazer","name":"Por Fazer","url":"https://dielsonsales.github.io/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-12-02T18:13:00+00:00","datePublished":"2024-12-02T18:13:00+00:00","description":"A blog for turning my personal notes into public posts.","headline":"Optimized FFmpeg on macOS","mainEntityOfPage":{"@type":"WebPage","@id":"https://dielsonsales.github.io/2024/12/02/optimized-ffmpeg-macos.html"},"url":"https://dielsonsales.github.io/2024/12/02/optimized-ffmpeg-macos.html"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://dielsonsales.github.io/feed.xml" title="Por Fazer" /></head>
 <body><header class="site-header" role="banner">
@@ -36,52 +37,39 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><style type="text/css" media="screen">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Optimized FFmpeg on macOS</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2024-12-02T18:13:00+00:00" itemprop="datePublished">Dec 2, 2024
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <style type="text/css" media="screen">
   body {
     font-family: "Times New Roman", Times, serif;
     font-size: 18px;
   }
 </style>
 
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">Dec 2, 2024</span>
-        <h3>
-          <a class="post-link" href="/2024/12/02/optimized-ffmpeg-macos.html">
-            Optimized FFmpeg on macOS
-          </a>
-        </h3></li><li><span class="post-meta">Apr 22, 2024</span>
-        <h3>
-          <a class="post-link" href="/2024/04/22/perfectionism.html">
-            Perfectionism
-          </a>
-        </h3></li><li><span class="post-meta">May 11, 2023</span>
-        <h3>
-          <a class="post-link" href="/2023/05/11/starting-a-new-blog.html">
-            Starting a new blog
-          </a>
-        </h3></li><li><span class="post-meta">Dec 23, 2022</span>
-        <h3>
-          <a class="post-link" href="/2022/12/23/list-git-configs.html">
-            My List of Interesting and Important Git Configurations
-          </a>
-        </h3></li><li><span class="post-meta">Dec 10, 2022</span>
-        <h3>
-          <a class="post-link" href="/2022/12/10/installing-oracle-database-for-the-first-time.html">
-            Installing an Oracle Database for the first time
-          </a>
-        </h3></li><li><span class="post-meta">Mar 31, 2021</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2021/03/31/welcome-to-jekyll.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li><li><span class="post-meta">Mar 7, 2021</span>
-        <h3>
-          <a class="post-link" href="/2021/03/07/minimalist-android-app.html">
-            Writing a minimalist Android client, part 1
-          </a>
-        </h3></li></ul>
+<p>As a long-term FFmpeg user, it’s been a while that I simply used the static build of FFmpeg from the website. However, ever since I got a Mac Mini with Apple Silicon, I was worried about whether all the codecs I was using were properly optimized. I found out a few threads such as <a href="https://www.reddit.com/r/Applesilicon/comments/n8b2iw/ffmpeg_on_apple_sillicon_m1_mac_mini_8gb/">this</a> initially talking about x265 requiring a NEON patch to be 2 to 3 times as fast as the unpatched version.</p>
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+<p><img src="/images/ffmpeg-x265-benchmark.png" alt="" /></p>
+
+<p>For a while, I assumed the brew installation wasn’t properly optimized and got my FFmpeg build from the <a href="https://www.osxexperts.net">https://www.osxexperts.net</a> website, which supposedly is compiled with all optimizations for the ARM architecture.</p>
+
+<p>After some further investigation though, it seems the current version of FFmpeg available from brew <a href="https://github.com/homebrew-ffmpeg/homebrew-ffmpeg/issues/86#issuecomment-1356673227">already contains the patch</a>, so most people should be good by now.</p>
+
+<p><img src="/images/ffmpeg-neon-brew.png" alt="" /></p>
+
+<p>Some people even confirmed that the encoding speed seems to be the same:</p>
+
+<p><img src="/images/ffmpeg-brew.png" alt="" /></p>
+
+  </div><a class="u-url" href="/2024/12/02/optimized-ffmpeg-macos.html" hidden></a>
+</article>
 
       </div>
     </main><footer class="site-footer h-card">
