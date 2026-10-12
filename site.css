@@ -6,25 +6,26 @@
   --muted-color: #555;
   --border-color: #d9dedb;
   --hover-bg: #eef1ef;
-  --link-color: #145a55;
+  --link-color: #4EA3D0;
   --inline-code-bg: #f1f0ef;
   --inline-code-color: #c84b45;
   color: var(--text-color);
   background: var(--page-bg);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  font-size: 18px;
-  line-height: 1.65;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
 }
 
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --page-bg: #191c1a;
-  --surface-bg: #222725;
+  --page-bg: #292c2a;
+  --surface-bg: #323533;
   --text-color: #e6e9e7;
   --muted-color: #aeb6b1;
   --border-color: #414a45;
   --hover-bg: #343d38;
-  --link-color: #8dcac0;
+  --link-color: #4EA3D0;
   --inline-code-bg: #393431;
   --inline-code-color: #f08a80;
 }
@@ -145,7 +146,7 @@ footer > a {
 
 .font-sample--default {
   color: #2583e5;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .font-sample--serif {
@@ -156,9 +157,16 @@ footer > a {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 }
 
-.font-option:hover,
-.font-option[aria-pressed="true"] {
+.font-option:hover {
   background: var(--hover-bg);
+}
+
+:root:not([data-font-style]) .font-option[data-font-style="default"],
+:root[data-font-style="default"] .font-option[data-font-style="default"],
+:root[data-font-style="serif"] .font-option[data-font-style="serif"],
+:root[data-font-style="mono"] .font-option[data-font-style="mono"] {
+  background: var(--hover-bg);
+  box-shadow: inset 0 0 0 1px var(--link-color);
 }
 
 .appearance-settings {
@@ -282,12 +290,7 @@ pre {
 
 a {
   color: var(--link-color);
-  text-decoration-thickness: 0.08em;
-  text-underline-offset: 0.14em;
-}
-
-a:hover {
-  text-decoration-thickness: 0.14em;
+  text-decoration: none;
 }
 
 a:focus-visible {

@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="font-picker.js"></script>
+  <link rel="stylesheet" href="site.css">
+    <title>OpenJDK vs Oracle JDK</title>
+</head>
+<body>
+  <header>
+    <div class="site-header-content">
+      <a href="index.html">Por Fazer</a>
+      <nav class="site-header-tools" aria-label="Site pages and appearance">
+        <a class="about-link" href="about.html">About</a>
+        <details class="font-picker">
+          <summary aria-label="Choose font style" title="Choose font style">...</summary>
+          <div class="font-picker-menu">
+            <h2 class="font-picker-title">Font style</h2>
+            <div class="font-options" role="group" aria-label="Font style">
+              <button type="button" class="font-option" data-font-style="default" aria-pressed="true">
+                <span class="font-sample font-sample--default" aria-hidden="true">Ag</span>
+                <span>Default</span>
+              </button>
+              <button type="button" class="font-option" data-font-style="serif" aria-pressed="false">
+                <span class="font-sample font-sample--serif" aria-hidden="true">Ag</span>
+                <span>Serif</span>
+              </button>
+              <button type="button" class="font-option" data-font-style="mono" aria-pressed="false">
+                <span class="font-sample font-sample--mono" aria-hidden="true">Ag</span>
+                <span>Mono</span>
+              </button>
+            </div>
+            <section class="appearance-settings" aria-labelledby="appearance-heading">
+              <h3 id="appearance-heading">Appearance</h3>
+              <label class="theme-setting" for="theme-toggle">
+                <span>Dark theme</span>
+                <input id="theme-toggle" type="checkbox" role="switch" data-theme-toggle>
+              </label>
+            </section>
+          </div>
+        </details>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <article>
+      <h1>OpenJDK vs Oracle JDK</h1>
+            <p class="post-date">May 14, 2015</p>
+            <blockquote>
+            <p>In the days of Java 6, there used to be a big difference
+            between the two of them [OpenJDK and Oracle JDK], OpenJDK
+            running slower and supporting less. However, nowadays,
+            except for the java-web-plugin (…), they are exactly the
+            same. - <a href="http://askubuntu.com/a/437756">Link para
+            resposta no AskUbuntu</a></p>
+            </blockquote>
+            <p>O que me motivou a escrever este post foi o fato de que,
+            ao ler esta afirmação, eu não tinha certeza do quanto ela
+            estava certa. Pior, eu sequer sabia dizer qual era a
+            história por trás do OpenJDK e qual sua relação com a JDK
+            oficial da Oracle. Esta é uma compilação de tudo o que eu
+            consegui encontrar durante esses dias sobre este
+            assunto.</p>
+            <h2 id="o-início-dos-tempos">O início dos tempos</h2>
+            <p>A história do surgimento do OpenJDK se entrelaça com a
+            própria história do Java.</p>
+            <p>Desde o início da criação do Java, várias <a
+            href="http://en.wikipedia.org/wiki/Free_Java_implementations">implementações
+            livres</a> foram feitas, mas no geral não continham todas as
+            funcionalidades da versão oficial e eram significativamente
+            mais lentas. Dentre elas, a mais importante foi o <a
+            href="http://en.wikipedia.org/wiki/Apache_Harmony">Apache
+            Harmony</a> anunciado em 2005, desenvolvido pela Apache
+            Software Foundation. Ao que parece, o projeto nunca foi bem
+            visto pela Sun que <a
+            href="http://www.apache.org/jcp/sunopenletter.html">recusou
+            por várias vezes</a> reconhecer o Apache Harmony como uma
+            das versões oficialmente compatíveis, por causa da violação
+            de certas restrições impostas pela Sun pelo uso da marca.
+            Mas apesar disso uma versão open source do Java 6 com 97% da
+            especificação finalizada foi lançada.</p>
+            <p>No início de 2006, havia certo alvoroço sobre o futuro do
+            Java. Na época, um ex-empregado da Sun publicou em seu blog
+            uma <a
+            href="http://peteryared.blogspot.com.br/2006/03/open-letter-to-jonathan-schwartz.html">carta</a>
+            (não respondida pela Sun) questionando os motivos de o Java
+            continuar fechado:</p>
+            <blockquote>
+            <p>We all know the standard Sun answer that Java will get
+            fractured and that the JCP is great. However, OpenSolaris
+            and OpenOffice have not been fractured since being open
+            sourced. And most of the Java innovation nowadays comes from
+            open source projects like Spring and Hibernate, not the JCP,
+            which then has to recreate all of these open source
+            projects. Some of the biggest supports of Java, including
+            IBM and BEA and others in the JCP executive committee, have
+            long asked for Java to be open sourced. So what’s up? Can
+            you guys let go a bit and let us all share a single, open
+            source virtual machine?</p>
+            </blockquote>
+            <p>Então em 2006 a Sun — que até então era a detentora do
+            Java — anunciou que o Java se tornaria open source, e a
+            promessa foi cumprida em 2007, com o lançamento da versão
+            1.7. A versão do Java 6 foi liberada depois através de uma
+            “<a
+            href="http://web.archive.org/web/20070423001723/http://blogs.sun.com/darcy/entry/forward_to_the_past">reversão</a>”
+            dos commits:</p>
+            <blockquote>
+            <p>The current plan is go “forward to the past” by starting
+            with a near future build of JDK 7 and creating a backward
+            branch that removes the changes inappropriate for a Java SE
+            6 implementation. The resulting code will be under the same
+            GPLv2 license as JDK 7.</p>
+            </blockquote>
+            <p>Em outubro de 2010, a IBM <a
+            href="http://www.ibm.com/developerworks/library/j-openjdkroundup/">anunciou</a>
+            que se juntaria ao OpenJDK, o que acabou levando ao fim do
+            Apache Harmony. Apesar disso, o Apache Harmony foi usado
+            anos depois pela Google para criar a Dalvik no Android.</p>
+            <p>Então qual seria, hoje, a maior diferença entre a versão
+            do JDK distribuída oficialmente nos repositórios das
+            distribuições Linux e aquele oferecido pela Oracle?</p>
+            <p>De acordo com um <a
+            href="https://web.archive.org/web/20140527220942/http://grnlight.net/index.php/programming-articles/115-javaone-sun-the-bulk-of-java-is-open-sourced">artigo</a>
+            publicado durante o anúncio da transição para Open Source,
+            embora não haja um pronunciamento oficial sobre quanto por
+            cento do código da JDK da Oracle continuou fechado, a Sun
+            admitiu que se tratava basicamente da tecnologia de gráficos
+            2D do Java, especialmente as partes de fontes e <a
+            href="http://pt.wikipedia.org/wiki/Rasteriza%C3%A7%C3%A3o">rasterização</a>
+            de imagens.</p>
+            <p>Resposta no <a href="http://qr.ae/E5MYk">Quora</a>:</p>
+            <blockquote>
+            <p>The Java2D pipeline on OpenJDK is less optimized and more
+            buggy than on the Oracle (Sun) JDK. I think it has to do
+            with various licenses that Oracle (Sun) has around
+            anti-aliasing (and possible other parts of the pipeline)
+            that aren’t licensed for OpenJDK. In one Java2D app running
+            on OpenJDK I noticed some strange shape drawing at different
+            affine transforms, almost as if there were precision
+            errors.</p>
+            </blockquote>
+            <h2 id="e-quanto-ao-open-source">E quanto ao “Open
+            Source”?</h2>
+            <p>Apesar de o OpenJDK ter tido o código-fonte liberado e
+            estar sob uma licença open source (GPLv2) isso não significa
+            que a plataforma ofereça as mesmas liberdades de um projeto
+            open source. Basicamente, fazer um fork do OpenJDK significa
+            que você e quem quer que use seu projeto poderão ser
+            processados por violação de patentes (há muitas patentes no
+            código do OpenJDK) por quem quer que tenha contribuído para
+            o projeto. O único jeito de conseguir direitos sobre as
+            patentes é passar no kit de compatibilidade da Oracle, o
+            TCK. Porém, para passar nos testes, você precisa aceitar
+            certos <em>“field-of-use restrictions”</em>. Em suma, você
+            não tem permissão para usar a tecnologia em dispositivos
+            embarcados. O problema é que aceitar tais restrições
+            significa que você e seus usuários podem ser processados por
+            violação da GPL.</p>
+            <p>Vale lembrar que o OpenJDK também inclui algo chamado <a
+            href="http://openjdk.java.net/legal/gplv2+ce.html">ClassPath
+            Exception</a>, uma extenção da GPL que permite a usuários da
+            plataforma lançarem suas aplicações com código fechado e
+            ainda assim fazerem uso da biblioteca padrão do Java.</p>
+            <h2 id="conclusão">Conclusão</h2>
+            <p>Espero que este texto ajude qualquer um a entender a
+            história por trás do OpenJDK e qual sua relação com a versão
+            distribuída pela Oracle. Eu não tive muito tempo para
+            pesquisar certas nuances de cada tópico, pois isso daria
+            material para muitos posts. Mas sinta-se a vontade para
+            indicar artigos ou informações que poderiam melhorar este
+            post. Obrigado.</p>
+            <h2 id="referências">Referências</h2>
+            <ul>
+            <li><a
+            href="http://en.wikipedia.org/wiki/Free_Java_implementations">Free
+            Java Implementations</a>;</li>
+            <li><a href="http://openjdk.java.net/faq/">OpenJDK
+            FAQ</a>;</li>
+            <li><a
+            href="http://www.ibm.com/developerworks/library/j-openjdkroundup/">IBM
+            and Oracle change the game: A surprising alliance on
+            OpenJDK</a></li>
+            <li><a
+            href="http://peteryared.blogspot.com.br/2006/03/open-letter-to-jonathan-schwartz.html">An
+            Open Letter to Jonathan Schwartz</a></li>
+            <li><a
+            href="https://web.archive.org/web/20140527220942/http://grnlight.net/index.php/programming-articles/115-javaone-sun-the-bulk-of-java-is-open-sourced">Sun:
+            The bulk of Java is open sourced</a></li>
+            <li><a
+            href="http://dirkriehle.com/2011/06/30/the-java-ip-story/">The
+            Java IP Story</a></li>
+            <li><a
+            href="http://skife.org/java/jcp/2010/12/07/the-tck-trap.html">The
+            TCK Trap</a></li>
+            <li>Outros links espalhados pelo texto</li>
+            </ul>
+    </article>
+  </main>
+  <footer><a href="index.html">Home</a></footer>
+</body>
+</html>
